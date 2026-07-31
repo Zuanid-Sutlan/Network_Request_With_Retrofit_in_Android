@@ -30,8 +30,12 @@
 
 package com.dreamcode.networkrequestwithretrofitinandroid.ui.theme
 
-import androidx.compose.ui.graphics.Color
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Shapes
+import androidx.compose.ui.unit.dp
 
-val colorPrimary = Color(0xFF006837)
-val colorPrimaryDark = Color(0xFF004012)
-val colorAccent = Color(0xFFc75f00)
+val Shapes = Shapes(
+  small = RoundedCornerShape(4.dp),
+  medium = RoundedCornerShape(8.dp),
+  large = RoundedCornerShape(0.dp)
+)

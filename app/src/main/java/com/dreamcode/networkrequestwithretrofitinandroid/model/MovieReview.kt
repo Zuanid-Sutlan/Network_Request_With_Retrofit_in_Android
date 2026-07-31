@@ -27,11 +27,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+ 
+package com.dreamcode.networkrequestwithretrofitinandroid.model
 
-package com.dreamcode.networkrequestwithretrofitinandroid.ui.theme
-
-import androidx.compose.ui.graphics.Color
-
-val colorPrimary = Color(0xFF006837)
-val colorPrimaryDark = Color(0xFF004012)
-val colorAccent = Color(0xFFc75f00)
+data class MovieReview(val title: String, val description: String, val comment: String)

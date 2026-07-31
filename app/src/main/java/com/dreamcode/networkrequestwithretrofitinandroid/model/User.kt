@@ -28,10 +28,6 @@
  * THE SOFTWARE.
  */
 
-package com.dreamcode.networkrequestwithretrofitinandroid.ui.theme
+package com.dreamcode.networkrequestwithretrofitinandroid.model
 
-import androidx.compose.ui.graphics.Color
-
-val colorPrimary = Color(0xFF006837)
-val colorPrimaryDark = Color(0xFF004012)
-val colorAccent = Color(0xFFc75f00)
+data class User(val username: String, val email: String)
